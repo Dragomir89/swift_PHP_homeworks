@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		
+			#mainTable{
+				font-family: Arial, Helvetica, sans-serif;
+				margin:0 auto;
+				border:1px solid #bfbfbf;
+				width: 525px;
+				background: #f7f7f7;
+				border-radius: 5px;
+			}
+		
+			#myName{
+				font-size: 30px;
+			}
+		
+			table, td {
+				border-collapse: separate;
+				
+			}
+			.cellPadding{
+				padding:10px;
+			}
+			
+			.centerText{
+				text-align: center;
+			}
+			.infoBlock{
+				margin-top: 10px;
+				padding-top:10px;
+				
+			}
+			
+			#nav{
+				
+				width:100%;
+				background:#dbdbdb;
+
+			}
+			
+			
+			.navButton{
+				border: 3px solid #dbdbdb;
+				background:#bfbfbf;
+				height: 30px;
+				color:white;
+				border-radius: 5px;
+			}
+			
+			.navButton:hover {
+				color: yellow;
+				cursor:pointer;
+				background:#777777;
+			}
+			
+			.navButton: hover{
+				color: red;
+			}
+			
+			#pic{
+				height:160px;
+				width:160px;
+				border:1px solid #dbdbdb;
+				border-radius:80px;
+			}
+			
+			.contactTable{
+				width:100%;
+			}
+			.borderBottom{
+				border-bottom: 1px solid #777777;
+			}
+			.projectType{
+				width: 160px;
+			}
+			a{
+				color: black;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+	<body>
+		
+		<table id="mainTable" cellspacing="10">
+			<tr>
+				<td id="myName" class="centerText" colspan="3"><i>Dragomir Emilov Mildov</i></td>
+			</tr>
+		
+			<tr>
+				<td  colspan="3">
+					<table id="nav">
+						<tr>
+							<td id="aboutMe" class="centerText navButton">About me</td>
+							<td id="projects" class="centerText navButton">Projects</td>
+							<td id="contacts" class="centerText navButton">Contacts</td>
+						</tr>
+					</table>
+				</td>
+				
+			</tr>
+			<tr>
+				<td  >
+					<img id="pic" src="http://www.zimeye.net/wp-content/uploads/2016/08/Mr-Bean.jpg" alt="Mountain View" >
+				</td>
+			</tr>
+			<tr class="infoBlock page01">
+				<td class="borderBottom">Education: </td>
+				<td  colspan="2" class="borderBottom">
+					<table cellspacing="5">
+						<tr>
+							<td>
+								2015 - 2014:
+							</td>
+							<td>
+								test test test test test
+							</td>
+						</tr>
+						<tr>
+							<td>
+								2014 - 2012:
+							</td>
+							<td>
+								test test test test test
+							</td>
+						</tr>
+						<tr>
+							<td>
+								2012 - 2010:
+							</td>
+							<td>
+								test test test test test
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="infoBlock page01">
+				<td class="borderBottom">Experience: </td>
+				<td colspan="2" class="borderBottom">
+					<table cellspacing="5">
+					<tr>
+						<td>
+							2016 - 2015:
+						</td>
+						<td>
+							test test test test test
+						</td>
+					</tr>
+					<tr>
+						<td>
+							2014 - 2013:
+						</td>
+						<td>
+							test test test test test
+						</td>
+					</tr>
+					<tr>
+						<td>
+							2016 - 2015:
+						</td>
+						<td>
+							test test test test test
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="infoBlock page01">
+				<td class="">Hobbies: </td>
+				<td colspan="2">
+					<table cellspacing="5">
+						<tr>
+							<td>
+								Sports:
+							</td>
+							<td>
+								Backetball, Football, Golf
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Music:
+							</td>
+							<td>
+								Pop folk, Metal, Hip Hop
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Others:
+							</td>
+							<td>
+								Travels
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="infoBlock page02">
+				<td class="projectType borderBottom" rowspan="4">Business projects: </td>
+			</tr>
+			<tr class="page02">
+				<td class="cellPadding">
+					Title Of Project01
+				</td>
+			</tr>
+			<tr class="page02">
+				<td class="cellPadding">
+					Title Of Project02
+				</td>
+			</tr>
+			<tr class="page02">
+				<td class="cellPadding">
+					Title Of Project03
+				</td>	
+			</tr>			
+			<tr class="infoBlock page02">
+				<td class="projectType" rowspan="4">Home projects: </td>
+			</tr>
+			<tr class="page02">
+				<td class="cellPadding">
+					Title Of Project01
+				</td>
+			</tr>
+			<tr class="page02">
+				<td class="cellPadding">
+					Title Of Project02
+				</td>
+			</tr>
+			<tr class="page02">
+				<td class="cellPadding">
+					Title Of Project03
+				</td>	
+			</tr>	
+			<tr class="infoBlock page03">
+				
+				<td colspan="2">
+					<table class="contactTable" cellspacing="5">
+						<tr>
+							<td class="centerText cellPadding" colspan="4" >
+								My Contacts:
+							</td>
+						</tr>
+						<tr>
+							<td class=" cellPadding" >
+								Tel:
+							</td>
+							<td class=" cellPadding" >
+								0888999999
+							</td>
+						</tr>
+						<tr>
+							<td class=" cellPadding" >
+								Tel:
+							</td>
+							<td class=" cellPadding" >
+								0999888888
+							</td>
+						</tr>
+						<tr>
+							<td class=" cellPadding" >
+								Email:
+							</td>
+							<td class=" cellPadding" >
+								drashoo@abv.bg
+							</td>
+						</tr>
+						<tr>
+							<td class=" cellPadding" >
+								gutHub:
+							</td>
+							<td class=" cellPadding" >
+								<a href="https://github.com/Dragomir89"> https://github.com/Dragomir89 </a>
+							</td>
+						</tr>
+					</table>	
+				</td>
+			</tr>	
+		</table>
+		
+		
+		<script>
+		$('.page02').hide();
+				$('.page03').hide();
+			$('#aboutMe').on('click', function(){
+				$('.page01').show();
+				$('.page02').hide();
+				$('.page03').hide();
+			})
+			
+			$('#projects').on('click', function(){
+				$('.page02').show();
+				$('.page01').hide();
+				$('.page03').hide();
+			})
+			
+			$('#contacts').on('click', function(){
+				$('.page03').show();
+				$('.page02').hide();
+				$('.page01').hide();
+			})
+			
+			
+		</script>
+	
+
+	</body>
+</html>

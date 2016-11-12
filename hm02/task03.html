@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			form{
+				border: 1px solid #FAEBD7;
+				border-radius: 5px;
+				padding:20px;
+				width: 300px;
+				margin: 0 auto;
+				background: #F0F8FF;
+			}
+			input{
+				border-radius: 5px;
+				border: 1px solid #FAEBD7;
+				height: 20px;
+				padding-left:5px;
+				display:block;
+				margin-bottom:10px;
+				
+			}
+			
+			.textInputs{
+				width: 90%;
+				text-align: center;
+				
+			}
+			
+			label{
+				display: block;
+			}
+			span{
+				
+			}
+			.button{
+				width: 60px;
+				height: 30px;
+				background: #66ff66;
+			}
+			.radioWrapper{
+				display: inline-block;
+				margin-right: 17px;
+			}
+
+		</style>
+		
+</head>
+	<body>
+		
+		<form action="" method="post">
+			<label><span>*</span>First name:</label>
+			<input class="textInputs" type="text" name="firstname"/>
+			
+			<label><span>*</span>Last name:</label>
+			<input class="textInputs" type="text" name="lastname"/>
+			
+			<label><span>*</span>Password:</label>
+			<input class="textInputs" type="password" name="pass01"/>
+			
+			<label><span>*</span>Confirm Password:</label>
+			<input class="textInputs" type="password" name="pass02"/>
+		
+			<label>Address:</label>
+			<input class="textInputs" type="text" name="address"/>
+			
+			<label>School Name:</label>
+			<input class="textInputs" type="text" name="school"/>
+			
+			<label>Phone Number:</label>
+			<input class="textInputs" type="text" name="phoneNumber"/>
+			
+			<label><span>*</span>Email:</label>
+			<input class="textInputs" type="email" name="email"/>
+			
+			<div class="radioWrapper">
+				<label>Male</label>
+				<input type="radio" name="gender" value="male" checked/> 
+			</div>
+			<div class="radioWrapper">	
+				<label>Female</label>
+				<input type="radio" name="gender" value="female"/> 
+			</div>
+			<div class="radioWrapper">
+				<label>Other</label>
+				<input type="radio" name="gender" value="other"/> 
+			</div>
+			<input class="button" type="submit"  value="submit"/>
+			
+		</form>
+		
+	
+		
+	</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			form{
+				border: 1px solid black;
+				border-radius: 5px;
+				padding:20px;
+				display: inline-block;
+			}
+			input{
+				border-radius: 5px;
+				border: 1px solid black;
+				height: 18px;
+				padding-left:5px;
+				display:block;
+				margin-bottom:10px;
+			}
+		
+			label{
+				display: block;
+			}
+			span{
+				
+			}
+
+		</style>
+		
+</head>
+	<body>
+		
+		<form action="" method="post">
+			<label><span>*</span>First name:</label>
+			<input type="text" name="firstname"/>
+			
+			<label><span>*</span>Last name:</label>
+			<input type="text" name="lastname"/>
+			
+			<label><span>*</span>Password:</label>
+			<input type="password" name="pass01"/>
+			
+			<label><span>*</span>Confirm Password:</label>
+			<input type="password" name="pass02"/>
+		
+			<label>Address:</label>
+			<input type="text" name="address"/>
+			
+			<label>School Name:</label>
+			<input type="text" name="school"/>
+			
+			<label>Phone Number:</label>
+			<input type="text" name="phoneNumber"/>
+			
+			<label><span>*</span>Email:</label>
+			<input type="email" name="email"/>
+			
+			<label>Male</label>
+			<input type="radio" name="gender" value="male" checked/> 
+			
+			<label>Female</label>
+			<input type="radio" name="gender" value="female"/> 
+			
+			<label>Other</label>
+			<input type="radio" name="gender" value="other"/> 
+			
+			<input type="submit"  value="submit"/>
+			
+		</form>
+		
+	
+		
+	</body>
+</html>
